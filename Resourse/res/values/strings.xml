@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ResourseApp</string>
+    <string name="clikHere">Click Here</string>
+    <string name="buttonOne">Button One</string>
+    <string name="user">Enter UserName</string>
+    <string name="passsword">Enter Your Password</string>
+    <string name="login">Login</string>
+</resources>

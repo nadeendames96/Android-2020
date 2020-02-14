@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ريسورس ابليكشن</string>
+    <string name="clikHere">اضغظ هنا</string>
+    <string name="buttonOne">الزر الاول</string>
+    <string name="user">اكتب اسم المستخدم</string>
+    <string name="passsword">اكتب الباسورد الخاص بك</string>
+    <string name="login">ادخل</string>
+
+</resources>
