@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:background="@drawable/activity_color_gradints"
+    tools:context=".MainActivity">
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical">
+             <EditText
+                 style="@style/EditeTexts"
+                 android:id="@+id/number1"
+                 android:hint="@string/num1"/>
+
+       <EditText
+           android:id="@+id/number2"
+            android:hint="@string/num2"
+           style="@style/EditeTexts"
+           />
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           >
+           <Button
+               style="@style/ButtonsStyle1"
+               android:id="@+id/sum"
+               android:text="@string/sum_numbers"
+               />
+           <Button
+               style="@style/ButtonsStyle2"
+               android:id="@+id/sub"
+               android:text="@string/sub_numbers"
+               />
+           <Button
+               style="@style/ButtonsStyle1"
+               android:id="@+id/multi"
+               android:text="@string/multi_numbers"
+               />
+           <Button
+               style="@style/ButtonsStyle2"
+               android:id="@+id/div"
+               android:text="@string/div_numbers"
+               />
+           <Button
+               style="@style/ButtonsStyle1"
+               android:id="@+id/mode"
+               android:text="@string/mode_numbers"
+               />
+       </LinearLayout>
+       <TextView
+           android:id="@+id/equlas"
+          style="@style/TextViews"
+           />
+
+   </LinearLayout>
+
+</RelativeLayout>

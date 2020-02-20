@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Calculator App</string>
+    <string name="num1">Enter #1</string>
+    <string name="num2">Enter #2</string>
+    <string name="sum_numbers">Sum</string>
+    <string name="sub_numbers">Sub</string>
+    <string name="multi_numbers">Multi</string>
+    <string name="div_numbers">Div</string>
+    <string name="mode_numbers">Mode</string>
+    <string name="equals">Operations Numbers Equals :</string>
+</resources>
